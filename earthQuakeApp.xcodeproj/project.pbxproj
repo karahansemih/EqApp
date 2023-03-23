@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D64BD11529A405980086B6C2 /* Tvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64BD11429A405980086B6C2 /* Tvc.swift */; };
 		D6ECF77229A146D6005B6434 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECF77129A146D6005B6434 /* AppDelegate.swift */; };
 		D6ECF77429A146D6005B6434 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECF77329A146D6005B6434 /* SceneDelegate.swift */; };
 		D6ECF77629A146D6005B6434 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECF77529A146D6005B6434 /* ViewController.swift */; };
 		D6ECF77929A146D6005B6434 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6ECF77729A146D6005B6434 /* Main.storyboard */; };
 		D6ECF77B29A146D7005B6434 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6ECF77A29A146D7005B6434 /* Assets.xcassets */; };
 		D6ECF77E29A146D7005B6434 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6ECF77C29A146D7005B6434 /* LaunchScreen.storyboard */; };
+		D6ECF78829A147E1005B6434 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECF78729A147E1005B6434 /* model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D64BD11429A405980086B6C2 /* Tvc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tvc.swift; sourceTree = "<group>"; };
 		D6ECF76E29A146D6005B6434 /* earthQuakeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = earthQuakeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6ECF77129A146D6005B6434 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6ECF77329A146D6005B6434 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		D6ECF77A29A146D7005B6434 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6ECF77D29A146D7005B6434 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6ECF77F29A146D7005B6434 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6ECF78729A147E1005B6434 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				D6ECF77129A146D6005B6434 /* AppDelegate.swift */,
 				D6ECF77329A146D6005B6434 /* SceneDelegate.swift */,
 				D6ECF77529A146D6005B6434 /* ViewController.swift */,
+				D64BD11429A405980086B6C2 /* Tvc.swift */,
 				D6ECF77729A146D6005B6434 /* Main.storyboard */,
 				D6ECF77A29A146D7005B6434 /* Assets.xcassets */,
 				D6ECF77C29A146D7005B6434 /* LaunchScreen.storyboard */,
 				D6ECF77F29A146D7005B6434 /* Info.plist */,
+				D6ECF78729A147E1005B6434 /* model.swift */,
 			);
 			path = earthQuakeApp;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6ECF78829A147E1005B6434 /* model.swift in Sources */,
 				D6ECF77629A146D6005B6434 /* ViewController.swift in Sources */,
+				D64BD11529A405980086B6C2 /* Tvc.swift in Sources */,
 				D6ECF77229A146D6005B6434 /* AppDelegate.swift in Sources */,
 				D6ECF77429A146D6005B6434 /* SceneDelegate.swift in Sources */,
 			);
